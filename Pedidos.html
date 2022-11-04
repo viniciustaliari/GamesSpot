@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedidos</title>
+    <link rel="stylesheet" type="text/css" href="style_pedidos.css">
+</head>
+<body>
+    <div class="cuerpo_principal">
+    <nav>
+        <a class="logo" href="index.html"><img src="Iconos/icon.png"></a>
+        <ul>
+            <li><a href="quienes_somos.html">Quienes somos</a></li>
+            <li><a href="Productos.html">Productos</a></li>
+            <li><a href="Pedidos.html">Pedidos</a></li>
+            <li><a href="Novedades.html">Novedades</a></li>
+        </ul>
+    </nav>
+    <form class="formulario">
+        <h3>Realizar Pedido</h3>
+        <label for="fname">Nombre:</label><br>
+        <input type="text" class="fname" name="fname"><br>
+        <label for="lname">Apellidos:</label><br>
+        <input type="text" class="lname" name="lname"><br>
+        <label for="dni">DNI/NIE:</label><br>
+        <input type="text" class="ID" name="dni" size="9"><br>
+        <label for="d_nac">Fecha de nacimiento:</label><br>
+        <input type="date" class="f_nac" name="f_nac"><br>
+        <label for="mail">E-mail:</label><br>
+        <input type="email" class="mail"><br>
+        <label for="telefono">Telefono:</label><br>
+        <input type="tel" size="9" name="telefono"><br>
+        <label for="direccion">Direccion:</label><br>
+        <input type="text" class="direccion" name="direccion"><br>
+        <label for="cod_postal">Codigo postal:</label><br>
+        <input type="number" class="cod_postal" name="cod_postal" size="5"><br>
+        <div class="met_pago">
+            <p>Tipo de tarjeta</p>
+            <input type="radio" class="huey" name="drone" value="huey">
+            <label for="huey">Visa</label>
+            <input type="radio" class="huey" name="drone" value="huey">
+            <label for="huey">Master Card</label>
+        </div>
+        <label for="n_tarjeta">Numero de la tarjeta:</label><br>
+        <input type="tel" size="9" name="n_tarjeta" size="16"><br>
+        <input type="submit" value="Confirmar" class="enviar">
+    </form>
+    <footer>
+        <div class="footer">
+        <ul>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Youtube</a></li>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Twitter</a></li>
+        </ul>
+        <p>Games Spot INC.</p>
+    </div>
+    </footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página principal</title>
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<body>
+    <div class="cuerpo_principal">
+    <nav>
+        <a class="logo" href="#"><img src="Iconos/icon.png"></a>
+        <ul>
+            <li><a href="#">Quienes somos</a></li>
+            <li><a href="#">Productos</a></li>
+            <li><a href="#">Pedidos</a></li>
+            <li><a href="#">Novedades</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Juegos Recomendados</h2>
+        <section class="div_principal">
+            <div class="div_juego1"><a href="#"><img src="Productos/Call of Duty.jpg"></a></div>
+            <div class="div_juego1"><a href="#"><img src="Productos/ciberpunk_2077.jpg"></a></div>
+            <div class="div_juego1"><a href="#"><img src="Productos/FIFA.jpg"></a></div>
+            <div class="div_juego1"><a href="#"><img src="Productos/GTA IV.jpg"></a></div>
+            <div class="div_juego1"><a href="#"><img src="Productos/The Witcher III.jpg"></a></div>
+            <div class="div_juego1"><a href="#"><img src="Productos/UFC_3.jpg"></a></div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+        <ul>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Youtube</a></li>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Twitter</a></li>
+        </ul>
+        <p>Games Spot INC.</p>
+    </div>
+    </footer>
+    </div>
+</body>
+</html>

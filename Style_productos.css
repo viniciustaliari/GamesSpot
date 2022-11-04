@@ -1,0 +1,118 @@
+html{
+    height: 100%;
+}
+
+body{
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background: linear-gradient(45deg, #00c6ff, #0072ff)
+}
+
+body nav{
+    width: 100%;
+    height: 100px;
+}
+
+body nav img{
+    display: inline-block;
+    width: 80px;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.productos div input{
+    outline: none;
+    padding: 4px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body nav ul{
+    display: inline;
+}
+
+body nav ul li{
+    list-style: none;
+    display: inline-block;
+    float: right;
+    line-height: 100px;
+}
+
+body nav ul li a{
+    text-decoration: none;
+    font-size: 30px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    padding: 0 20px;
+    color: white;
+}
+
+.productos img{
+    width: 200px;
+    border-radius: 10px;
+}
+
+.productos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-column-gap: 120px;
+    grid-row-gap: 10px;
+    margin-left: 200px;
+}
+
+.productos div a{
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.productos div p{
+    margin-left: 75px;
+    display: inline;
+    text-align: center;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.productos div input{
+    margin-left: 45px;
+    color: white;
+    background-color: #24303c;
+}
+
+.footer{
+    width: 100%; 
+    margin-top: 0px;   
+    position:absolute;
+}
+
+.footer ul{
+    display: inline;    
+}
+
+.footer ul li{
+    list-style: none;
+    display: inline-block;
+    float: right;
+}
+
+.footer ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    padding: 0 20px;
+    color: white;
+}
+
+.footer p{
+    font-size: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    padding: 0 20px;
+}

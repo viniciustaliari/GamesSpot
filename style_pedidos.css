@@ -1,0 +1,126 @@
+html{
+    height: 100%;
+}
+
+body{
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background: linear-gradient(45deg, #00c6ff, #0072ff)
+}
+
+body nav{
+    width: 100%;
+    height: 100px;
+}
+
+body nav img{
+    display: inline-block;
+    width: 80px;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+body nav ul{
+    display: inline;
+}
+
+body nav ul li{
+    list-style: none;
+    display: inline-block;
+    float: right;
+    line-height: 100px;
+}
+
+body nav ul li a{
+    text-decoration: none;
+    font-size: 30px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    padding: 0 20px;
+    color: white;
+}
+
+
+
+.footer{
+    width: 100%; 
+    margin-top: 2px;   
+    position:absolute;
+}
+
+.footer ul{
+    display: inline;    
+}
+
+.footer ul li{
+    list-style: none;
+    display: inline-block;
+    float: right;
+}
+
+.footer ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    padding: 0 20px;
+    color: white;
+}
+
+.footer p{
+    font-size: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    padding: 0 20px;
+}
+
+.formulario{
+    width: 400px;
+    position: relative;
+    margin-left: 700px;
+    margin-top: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    border-radius: 10px;
+}
+
+.formulario h3{
+    font-size: 30px;
+    color: white;
+    margin-left: 20%;
+}
+
+.formulario label{
+    font-size: 20px;
+    color: white;
+}
+
+.formulario input{
+    width: 97%;
+    background: #24303c;
+    padding: 6px;
+    border-radius: 4px;
+    margin-bottom: 7px;
+    border: 1px solid #1f53c5;
+    font-family: 'calibri';
+    font-size: 15px;
+    color: white;
+}
+
+.enviar{
+    margin-left: 6px;
+}
+
+.met_pago{
+    height: 60px;margin-bottom: 5px;
+}
+
+.met_pago p{
+    margin-left: 140px;
+}
+
+.met_pago input{
+    width: 20%;
+}
